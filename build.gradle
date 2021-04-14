@@ -10,6 +10,7 @@ buildscript {
     }
     dependencies {
         classpath("$boot:spring-boot-gradle-plugin:$spring")
+
     }
 }
 
@@ -48,6 +49,7 @@ subprojects {
         testAnnotationProcessor lombok
 
         testImplementation "$boot:spring-boot-starter-test"
+
     }
 
     test {
