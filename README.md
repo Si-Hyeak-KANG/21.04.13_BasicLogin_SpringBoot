@@ -26,17 +26,17 @@
 
 MobSecurityConfig 의 필터( /api/** )
 
--SecurityFilter
+  -SecurityFilter
 
--BasicAuthenticationFilter
+  -BasicAuthenticationFilter
 
 SecurityFilter 의 필터( /** )
 
--SecurityFilter
+  -SecurityFilter
 
--CustomLoginFilter
+  -CustomLoginFilter
 
--SecurityFilter
+  -SecurityFilter
 
 
 현 예제는 test라 studnet, teacher를 메모리에서 핸들링 했지만 , 실제 프로젝트에서는 DB를 핸들링
