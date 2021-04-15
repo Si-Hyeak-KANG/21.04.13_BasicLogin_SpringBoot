@@ -9,11 +9,15 @@
         </processorPath>
         <module name="basic-login.server-basic-authentication-test.main" />
         <module name="basic-login.server-basic-test.test" />
+        <module name="basic-login.web-student-teacher.main" />
         <module name="basic-login.server-basic-test.main" />
+        <module name="basic-login.server-login-multi-chain.main" />
         <module name="basic-login.server-basic-authentication-test.test" />
         <module name="basic-login.server-login-custom-filter.main" />
+        <module name="basic-login.server-login-multi-chain.test" />
         <module name="basic-login.server-login-basic.test" />
         <module name="basic-login.server-login-custom-filter.test" />
+        <module name="basic-login.web-student-teacher.test" />
         <module name="basic-login.server-login-basic.main" />
       </profile>
     </annotationProcessing>

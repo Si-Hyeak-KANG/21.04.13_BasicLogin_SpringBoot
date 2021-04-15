@@ -3,6 +3,7 @@ package com.sp.fc.web.config;
 import com.sp.fc.web.student.StudentManager;
 import com.sp.fc.web.teacher.TeacherManager;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -11,7 +12,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-
+//웹시큐리티 필터
+@Order(2)
 @EnableWebSecurity(debug = true)
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
@@ -43,7 +45,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin(
                         login->login.loginPage("/login")
                         .permitAll()
-                        .defaultSuccessUrl("/",true)
+                        .defaultSuccessUrl("/",false)
                         .failureUrl("/login-error")
                 )//CustomLoginFilter와 UsernamePasswordAuthenticationFilter 같이 enable 해서 써도 사실 큰 문제는 없음.
                 .addFilterAt(filter, UsernamePasswordAuthenticationFilter.class)

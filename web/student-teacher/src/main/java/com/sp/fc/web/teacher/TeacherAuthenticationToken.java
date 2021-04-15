@@ -1,7 +1,6 @@
 package com.sp.fc.web.teacher;
 //통행증
 
-import com.sp.fc.web.student.Student;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

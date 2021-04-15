@@ -1,5 +1,5 @@
 server:
-  port: 9052
+  port: 9054
 
 spring:
   thymeleaf:
