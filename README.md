@@ -7,7 +7,7 @@ Branch
 3) 21.04.14_BasicAuthenticationFilter-Test
 4) 21.04.15_multi-chain-proxy
 5) 21.04.16_userdetails
-
+6) 21.04.16_rememberMe
 
 master : 
 SpringBoot-security의 기본적인 로그인 (user, admin page)
