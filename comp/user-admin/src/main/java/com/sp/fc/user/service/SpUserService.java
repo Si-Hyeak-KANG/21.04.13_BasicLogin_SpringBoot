@@ -1,4 +1,4 @@
-package com.sp.fc.user.srvice;
+package com.sp.fc.user.service;
 
 import com.sp.fc.user.domain.SpAuthority;
 import com.sp.fc.user.domain.SpUser;

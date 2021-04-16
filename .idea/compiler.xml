@@ -19,8 +19,10 @@
         <module name="basic-login.server-basic-test.test" />
         <module name="basic-login.web-user-admin.test" />
         <module name="basic-login.server-basic-authentication-test.test" />
+        <module name="basic-login.server-login-rememberme.test" />
         <module name="basic-login.server-login-multi-chain.test" />
         <module name="basic-login.web-user-admin.main" />
+        <module name="basic-login.server-login-rememberme.main" />
         <module name="basic-login.server-login-basic.test" />
         <module name="basic-login.web-student-teacher.test" />
         <module name="basic-login.comp-user-admin.test" />
