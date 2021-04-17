@@ -13,11 +13,13 @@
         <module name="basic-login.server-basic-test.main" />
         <module name="basic-login.server-login-multi-chain.main" />
         <module name="basic-login.server-login-custom-filter.main" />
+        <module name="basic-login.server-login-session-management.test" />
         <module name="basic-login.server-login-userdetails.test" />
         <module name="basic-login.server-login-userdetails.main" />
         <module name="basic-login.server-login-custom-filter.test" />
         <module name="basic-login.server-basic-test.test" />
         <module name="basic-login.web-user-admin.test" />
+        <module name="basic-login.server-login-session-management.main" />
         <module name="basic-login.server-basic-authentication-test.test" />
         <module name="basic-login.server-login-rememberme.test" />
         <module name="basic-login.server-login-multi-chain.test" />
