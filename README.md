@@ -8,6 +8,7 @@ Branch
 4) 21.04.15_multi-chain-proxy
 5) 21.04.16_userdetails
 6) 21.04.16_loging-rememberMe
+7) 21.04.17_session-management
 
 master : 
 SpringBoot-security의 기본적인 로그인 (user, admin page)
